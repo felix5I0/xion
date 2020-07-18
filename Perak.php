@@ -1,4 +1,7 @@
 <?php
+date_default_timezone_set('Asia/Jakarta');
+include "function.php";
+os.system('clear');
 sleep (2);
 echo color("blue"," Silahkan Tunggu Sebentar \n");
 sleep (2);
@@ -7,8 +10,6 @@ os.system('xdg-open //https://t.me/XionManSit');
 sleep (5);
 os.system('clear');
 sleep (2);
-date_default_timezone_set('Asia/Jakarta');
-include "function.php";
 echo color("red","[]                 PERAK LOSS                 []\n");
 echo color("nevy","[]            CREATOR : XionManSit            []\n");
 echo color("blue","[]       Time : ".date('[d-m-Y] [H:i:s]')."       []\n");
