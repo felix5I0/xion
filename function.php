@@ -3,7 +3,7 @@ function request($url, $token = null, $data = null, $pin = null, $otpsetpin = nu
 $header[] = "Host: api.gojekapi.com";
 $header[] = "User-Agent: okhttp/3.10.0";
 $header[] = "Accept: application/json";
-$header[] = "Accept-Language: id-ID";
+$header[] = "Accept-Language: en-EN";
 $header[] = "Content-Type: application/json; charset=UTF-8";
 $header[] = "X-AppVersion: 3.51.4";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
@@ -53,7 +53,7 @@ function save($filename, $content)
 function nama()
     {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "http://ninjaname.horseridersupply.com/Indonesia_name.php");
+    curl_setopt($ch, CURLOPT_URL, "http://ninjaname.horseridersupply.com/indonesian_name.php");
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
